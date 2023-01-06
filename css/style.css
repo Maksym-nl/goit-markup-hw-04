@@ -353,6 +353,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-top: 16px;
+  
 }
 .footer-text-container {
   width: 264px;
@@ -365,11 +366,12 @@ body {
   line-height: 1.5;
   color: #ffffff;
   margin-bottom: 16px;
+  display: flex;
 }
 
 .footer-list-soc {
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   gap: 16px;
 }
 
@@ -391,6 +393,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  
+}
+.social{
+  outline: 1px solid red; 
+margin-right: auto;
   
 }
 
