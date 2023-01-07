@@ -171,7 +171,7 @@ body {
   display: block;
   margin: 0 auto;
   border: none;
-}
+  }
 
 .hero-btn:hover,
 .hero-btn:focus {
@@ -321,24 +321,25 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #404bbf;
+  fill: #AFB1B8;
+ 
 }
-/*.customers-link-icon{
-  fill: currentColor;
-}*/
 
 .customers-link-icon:hover,
 .customers-link-icon:focus {
-  border-color:#404bbf;
-  fill: #404bbf;
+fill: #404bbf;
+
 }
+
 .footer {
   background: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
   display: flex;
 }
-
+/*.footer-container{
+  display: flex;
+}*/
 .studio-footer {
   font-family: "Raleway", "sans-serif";
   color: #f4f4fd;
@@ -359,14 +360,19 @@ body {
   width: 264px;
   outline: 1px solid red;
 }
-
+.wrap{
+  display: flex;
+  flex-direction: column;
+  outline: 1px solid red;
+}
 .footer-text-soc {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
+
   margin-bottom: 16px;
-  display: flex;
+  /*display: flex;*/
 }
 
 .footer-list-soc {
@@ -395,11 +401,10 @@ body {
   align-items: center;
   
 }
-.social{
+/*.social{
   outline: 1px solid red; 
-margin-right: auto;
-  
-}
+ }*/
+
 
 /*======================PORTFOLIO==============*/
 .main-pf {
@@ -417,6 +422,7 @@ margin-right: auto;
   cursor: pointer;
   text-align: center;
   padding: 12px 24px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .menu-btn:hover,
 .menu-btn:focus {
