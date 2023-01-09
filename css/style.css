@@ -188,7 +188,7 @@ body {
   gap: 24px;
 }
 .adge-item {
-  width: calc((100%-72px) / 4);
+  width: calc((100% - 72px) / 4);
   height: 112px;
   margin-bottom: 8px;
 }
@@ -202,6 +202,7 @@ body {
   justify-content: center;
   /*padding: 24px 100px;*/
   margin-bottom: 8px;
+  padding: 24px 100px;
 }
 
 .team-container {
@@ -254,6 +255,9 @@ body {
   width: 40px;
   height: 40px;
 }
+.team-link-soc-icon{
+  fill: #F4F4FD;
+}
 .team-link-soc {
   width: 100%;
   height: 100%;
@@ -263,7 +267,11 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+.team-link-soc:hover,
+.team-link-soc:focus {
+  background: #404bbf;
+  
+}
 .main-name {
   color: var(--text-color);
   font-weight: 600;
@@ -324,21 +332,22 @@ body {
 .customers-item:hover,
 .customers-item:focus {
   border: 1px solid #404bbf;
-  border-radius: 4px;
+  /*border-radius: 4px;*/
 }
 .customers-link {
   width: 100%;
   height: 100%;
   border: 1px solid #8e8f99;
-  border-radius: 4px;
+  /*border-radius: 4px;*/
   display: flex;
   align-items: center;
   justify-content: center;
   fill: #afb1b8;
 }
-.customers-link-icon:hover,
-.customers-link-icon:focus {
+.customers-link:hover,
+.customers-link:focus {
   fill: #404bbf;
+  border-color: #404bbf;
 }
 
 .footer {
@@ -346,13 +355,14 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
   display: flex;
- 
 }
-.contant{
+.contant {
   width: 264px;
   margin-right: 120px;
   outline: 1px solid red;
-
+}
+.container-footer {
+  display: flex;
 }
 /*.footer-container {
   width: 264px;
@@ -378,8 +388,8 @@ body {
   outline: 1px solid red;
 }
 .wrap {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  /*flex-direction: column;*/
   outline: 1px solid red;
 }
 .footer-text-soc {
@@ -401,6 +411,9 @@ body {
 .footer-item-soc {
   width: 40px;
   height: 40px;
+}
+.footer-link-soc-icon{
+  fill: #F4F4FD;
 }
 .footer-item-soc:hover,
 .footer-item-soc:focus {
@@ -455,7 +468,7 @@ body {
 }
 
 .img-container {
-  width: calc(100%-48px) / 3;
+  width: calc(100% - 48px) / 3;
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
@@ -494,6 +507,6 @@ body {
 }
 .pf-naim-text:hover,
 .pf-naim-text:focus {
-  border: 0.5px solid #e7e9fc;
-  box-shadow: 1px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
